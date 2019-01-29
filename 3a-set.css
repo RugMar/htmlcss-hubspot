@@ -1,0 +1,233 @@
+*{
+box-sizing: border-box;
+margin: 0;
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+.clearfix{
+  clear: both;
+  display: table;
+  content: "";
+}
+
+.nav{
+  height: 40px;
+  width: 100vw;
+  background-color: #274866;
+  border-top: 2.5px solid coral;
+}
+
+.half1{
+  height: 50px;
+  width: 50%;
+  float: left;
+}
+
+.fab, .fas, .far, .half2 span{
+  padding: 7px;
+}
+
+.far{
+  border-left: 1px solid whitesmoke;
+}
+
+.half2{
+  padding: 20px;
+  color: whitesmoke;
+  float:right;
+}
+
+.half1 img{
+  float: left;
+  height: 100%;
+  margin-top: 7px;
+}
+
+.half1 span{
+  float: left;
+  line-height: 50px;
+  padding: 8px;
+  font-size: 13px;
+  color: whitesmoke;
+}
+
+.set-ref{
+  width: 100vw;
+  height: 50px;
+  background-color: #ededed;
+  border-bottom: 1px solid #274866;
+}
+
+.primo, .second{
+  margin-top: 8px;
+  margin-left: 20vw;
+  float: left;
+}
+
+.set-ref i, .set-ref span, .refe span{
+  padding: 9px;
+  color: #274866;
+  font-size: 13px;
+}
+
+#stanghetta{
+  border-left: 1px solid #274866;
+}
+
+.second button, .half-free1 button, .letrecolo button{
+  border-radius: 5px;
+  background-color: coral;
+  border: 1px solid coral;
+  font-size: 13px;
+  color: whitesmoke;
+}
+
+.references{
+  width: 100vw;
+  height: 50px;
+  background-color: white;
+}
+
+.references img, .refe{
+  float: left;
+  margin-left: 20vw;
+  margin-top: 10px;
+}
+
+.refe span{
+  line-height: 33px;
+}
+
+.betterway{
+  width: 100vw;
+  background-color: #3a96a6;
+  height: 30vw;
+}
+
+.content{
+  margin-top: 30px;
+  float: left;
+  margin-left: 20vw;
+  width: 24vw;
+  color: white;
+}
+
+.content span{
+  font-size: 35px;
+}
+
+.content p{
+  margin-top: 20px;
+}
+
+.content button{
+  background-color: whitesmoke;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #3a96a6;
+  margin-top: 20px;
+}
+
+#problemacci{
+  color: darkgray;
+  font-size: 13px;
+}
+
+.container{
+  font-family: sans-serif;
+  width: 100vw;
+}
+
+.powerful{
+  float: left;
+  margin-left: 25vw;
+  margin-top: 5vw;
+  text-align: center;
+  margin-bottom: 5vw;
+}
+
+.powerful img{
+  width: 30%;
+  height: 30%;
+}
+
+.powerful p, .half-free2 p, .letrecolo p{
+  color: darkgray;
+  font-size: 13px;
+  margin-top: 1vw;
+}
+
+.half-free1 img{
+  width: 60%;
+  height: 60%;
+  display: block;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+.half-free1 button{
+  margin-left: 35%;
+  margin-bottom: 50px;
+}
+
+.freehub{
+  width: 630px;
+  margin: auto;
+  background-color: white;
+  margin-left: 25vw;
+}
+
+.half-free1, .half-free2{
+  float: left;
+  margin-top: 4vw;
+}
+
+.half-free2 p,h5,i{
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.contletre{
+  margin-left: 25vw;
+}
+
+.letrecolo{
+  margin-top: 2.5vw;
+  margin-right: 1vw;
+  float: left;
+  padding: 10px;
+  border-radius: 5px;
+  width: 16.2vw;
+  background-color: white;
+}
+
+.letrecolo span{
+  color: darkgray;
+  font-size: 13px;
+}
+
+h5, h2, h3, h4{
+  color: #274866;
+}
+i{
+  color: white;
+  background-color: orange;
+  border-radius: 25px;
+}
+
+.letrecolo img{
+  width: 70%;
+  height: 70%;
+  margin-bottom: 10px;
+  margin-left: 15%;
+}
+
+.letrecolo button{
+  margin-left: 50px;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
