@@ -155,8 +155,8 @@ body{
   height: 30%;
 }
 
-.powerful p, .half-free2 p, .letrecolo p{
-  color: darkgray;
+.powerful p, .half-free2 p, .letrecolo p, .numeri p, .tipello p{
+  color: darkgrey;
   font-size: 13px;
   margin-top: 1vw;
 }
@@ -181,6 +181,17 @@ body{
   margin-left: 25vw;
 }
 
+.freehub i{
+  margin-top: 2vw;
+  background-color: orange;
+  border-radius: 25px;
+  font-size: 10px;
+}
+
+.freehub span{
+  font-size: 13px;
+}
+
 .half-free1, .half-free2{
   float: left;
   margin-top: 4vw;
@@ -188,7 +199,7 @@ body{
 
 .half-free2 p,h5,i{
   padding: 5px;
-  margin-top: 5px;
+  margin-top: 1vw;
 }
 
 .contletre{
@@ -215,8 +226,6 @@ h5, h2, h3, h4{
 }
 i{
   color: white;
-  background-color: orange;
-  border-radius: 25px;
 }
 
 .letrecolo img{
@@ -230,4 +239,158 @@ i{
   margin-left: 50px;
   margin-bottom: 25px;
   margin-top: 20px;
+}
+
+.azure-table{
+  width: 100vw;
+  background-color: #3a96a6;
+  height: 30vw;
+}
+
+.azure-table h2, p, .table-cont, .table-cont-d{
+  color: whitesmoke;
+  margin-top: 30px;
+}
+
+.titolo p{
+  font-size: 13px;
+}
+
+.titolo{
+  width: 50%;
+  height: 35%;
+  text-align: center;
+  margin-left: 25%;
+  padding: 7px;
+}
+
+.table-cont, .table-cont-d{
+  float: left;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.table-cont{
+  border-right: 1px solid whitesmoke;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.table-cont-d{
+  border-left: 1px solid whitesmoke;
+  border-top: 1px solid whitesmoke;
+}
+
+.container-table{
+  margin-left:38%;
+  margin-top: 2%;
+}
+
+.numeri, .loghi{
+  float: left;
+}
+
+.numeri{
+  margin-bottom: 10vw;
+  margin-top: 4vw;
+  margin-left: 25vw;
+  width: 10%;
+}
+
+.loghi{
+  margin-left: 5vw;
+  margin-bottom: 10vw;
+  margin-top: 4vw;
+  width: 40%;
+}
+
+.loghi img{
+  width: 100px;
+  padding: 5px;
+}
+
+.stats, .stephen{
+  width: 25%;
+  float: left;
+}
+
+.stats{
+  margin-left: 25vw;
+}
+
+.stephen img{
+  margin-left: 6vw;
+  border-radius: 1000px;
+  width: 250px;
+}
+
+.stats button{
+  color: white;
+  background-color: coral;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid coral;
+  margin-top: 20px;
+}
+
+.footeryeah{
+  margin-top: 10vw;
+  width: 100vw;
+  background-color: #274866;
+}
+
+.column span, .straultimo span{
+  font-size: 13px;
+  color: whitesmoke;
+  display: block;
+  padding: 10px;
+}
+
+.loro{
+  margin-top: 3vw;
+  margin-left: 20vw;
+}
+
+.column{
+  float: left;
+  margin-left: 3vw;
+}
+
+.column button{
+  background-color: whitesmoke;
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #3a96a6;
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 1vw;
+}
+
+.ultimo{
+  width: 100vw;
+  background-color: #274866;
+  height: 13vw;
+}
+
+.ultimo span{
+  font-size: 13px;
+  color: whitesmoke;
+  margin-top: 3vw;
+  float: left;
+}
+
+.straultimo{
+  margin: auto;
+}
+
+hr{
+  width: 90%;
+  margin: auto;
+}
+
+.ultimo img{
+  float: left;
+  margin-top: 1vw;
+  width: 70px;
 }
